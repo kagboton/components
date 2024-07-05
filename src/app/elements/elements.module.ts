@@ -6,12 +6,8 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    ElementsRoutingModule,
-    ElementsHomeComponent
-  ],
-  exports: [ElementsHomeComponent]
+  declarations: [ElementsHomeComponent],
+  imports: [CommonModule, ElementsRoutingModule],
+  exports: []
 })
 export class ElementsModule { }

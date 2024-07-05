@@ -5,12 +5,8 @@ import { CollectionsHomeComponent } from './collections-home/collections-home.co
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    CollectionsRoutingModule, 
-    CollectionsHomeComponent
-  ], 
-  exports: [CollectionsHomeComponent]
+  declarations: [CollectionsHomeComponent],
+  imports: [CommonModule, CollectionsRoutingModule],
+  exports: [],
 })
-export class CollectionsModule { }
+export class CollectionsModule {}

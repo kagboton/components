@@ -7,12 +7,17 @@ const routes: Routes = [
   {
     path: 'elements',
     loadChildren: () =>
-      import('./elements/elements.module').then((m) => m.ElementsModule), // lazy loading
+      import('./elements/elements.module').then((m) => m.ElementsModule), // elements lazy loading
   },
   {
     path: 'collections',
     loadChildren: () =>
-      import('./collections/collections.module').then((m) => m.CollectionsModule), // lazy loading
+      import('./collections/collections.module').then((m) => m.CollectionsModule), // collections lazy loading
+  },
+  {
+    path: 'views',
+    loadChildren: () =>
+      import('./views/views.module').then((m) => m.ViewsModule), // views lazy loading
   },
   { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent },

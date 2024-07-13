@@ -19,6 +19,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./views/views.module').then((m) => m.ViewsModule), // views lazy loading
   },
+  {
+    path: 'mods',
+    loadChildren: () =>
+      import('./suimodules/suimodules.module').then((m) => m.SUIModulesModule), // suiModules lazy loading
+  },
   { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent },
 ];

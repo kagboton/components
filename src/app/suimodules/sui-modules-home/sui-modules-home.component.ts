@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class SuiModulesHomeComponent {
 
+  modalOpen = false;
+
+  onClick = () => { 
+    this.modalOpen = !this.modalOpen;
+  }
 }

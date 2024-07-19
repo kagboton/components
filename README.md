@@ -1,5 +1,12 @@
 # Components
 
+Components application build from Stephen Grider Angular Udemy course (section 6 - section 11) : https://www.udemy.com/course/the-modern-angular-bootcamp/
+
+What we've done here :
+
+-
+-
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 ## Development server

@@ -1,11 +1,15 @@
 # Components
 
-Components application build from Stephen Grider Angular Udemy course (section 6 - section 11) : https://www.udemy.com/course/the-modern-angular-bootcamp/
+Components application build with angular and deployed with now.io. The application is live and available at : https://components-nine-dun.vercel.app. The application is my hand on practice from Stephen Grider Angular Udemy course (section 6 - section 11) : https://www.udemy.com/course/the-modern-angular-bootcamp/
 
 What we've done here :
+- used modules to organize components
+- use sematic-ui for styling (https://semantic-ui.com/)
+- routing and navigation between pages
+- component lazy loading 
+- child navigation routes
+- routerLink configuration
 
--
--
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
